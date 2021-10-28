@@ -45,6 +45,6 @@ function draw()
 {
     background("white");
     fill("#87CEEB");
-    stroke("#191970")
-    image(nosex,nosey,difference);
+    stroke("#191970");
+    square(nosex,nosey,difference);
 }
