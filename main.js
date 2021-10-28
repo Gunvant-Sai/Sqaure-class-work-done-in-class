@@ -38,12 +38,13 @@ function gotposes(result)
 
      console.log("leftWristx =" + leftWristx +"rightWristx = "+ rightWristx + " difference =" + difference);
      console.log("leftWristy =" + leftWristy +"rightWristy = "+ rightWristy + " difference =" + difference);
+     document.getElementById("Mommy").innerHTML = "Width and Height of the squre is ="+difference+" px";
     }
 }
 
 function draw()
 {
-    background("white");
+    background("grey");
     fill("#87CEEB");
     stroke("#191970");
     square(nosex,nosey,difference);
